@@ -10,11 +10,25 @@
   </head>
   <body>
     <h1>Magic 8 Ball</h1>
-    <div class="question">
-      <label for="question">Ask your question</label><br />
-      <br />
-      <input type="text" id="question" name="question" /> <br /><br />
-      <input type="submit" value="Shake the ball" />
+    <div id="eightball">
+      <p class="eight">8</p>
+      <p class="answer"></p>
     </div>
+
+    <form>
+      <div id="user">
+        <div class="name">
+          <label for="name">What is your name?</label><br /><br />
+          <input type="text" id="name" name="name" required /> <br />
+          <br />
+        </div>
+        <div class="question">
+          <label for="question">Ask your question</label><br /><br />
+          <input type="text" id="question" name="question" required />
+          <br /><br />
+        </div>
+        <input type="submit" value="Shake the ball!" />
+      </div>
+    </form>
   </body>
 </html>
