@@ -1,6 +1,11 @@
 body {
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(179, 219, 219);
+}
+
+h1 {
+  font-size: 50px;
 }
 
 #eightball {
@@ -30,7 +35,22 @@ body {
 }
 
 #answer {
-  padding: 30px;
-  color: lightblue;
+  color: rgb(179, 219, 219);
   font-size: 18px;
+  font-weight: bold;
+}
+
+#submit {
+  padding: 5px 20px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.ask {
+  font-size: 18px;
+}
+
+#question {
+  padding: 5px 20px;
+  font-size: 15px;
 }
