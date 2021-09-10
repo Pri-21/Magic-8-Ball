@@ -5,31 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="Resources/style.css" />
-    <script src="ball.js"></script>
+
     <title>Magic 8 Ball</title>
   </head>
   <body>
     <h1>Magic 8 Ball</h1>
+    <br />
+
+    <label for="question">Ask your question</label><br /><br />
+    <input type="text" id="question" name="question" />
+
     <div id="eightball">
       <div class="middle">
-        <p class="eight">8</p>
-        <p class="answer"></p>
+        <p id="eight">8</p>
+        <p id="answer"></p>
       </div>
     </div>
-    <form>
-      <div id="user">
-        <div class="name">
-          <label for="name">What is your name?</label><br /><br />
-          <input type="text" id="name" name="name" required /> <br />
-          <br />
-        </div>
-        <div class="question">
-          <label for="question">Ask your question</label><br /><br />
-          <input type="text" id="question" name="question" required />
-          <br /><br />
-        </div>
-        <input type="submit" value="Shake the ball!" />
-      </div>
-    </form>
+    <input type="submit" id="submit" value="Shake the ball!" />
+
+    <script src="./ball.js"></script>
   </body>
 </html>

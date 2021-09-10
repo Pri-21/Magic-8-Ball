@@ -23,13 +23,14 @@ body {
   margin: 25% auto;
 }
 
-.eight {
+#eight {
   color: white;
   font-size: 50px;
   margin: 30% auto;
 }
 
-.answer {
-  padding: 25px;
+#answer {
+  padding: 30px;
   color: lightblue;
+  font-size: 18px;
 }
