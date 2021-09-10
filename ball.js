@@ -5,12 +5,15 @@ let answer = document.getElementById("answer");
 let options = [
   "It is certain",
   "It is decidedly so",
+  "Most likely",
   "Reply hazy try again",
   "Cannot predict now",
   "Do not count on it",
   "My sources say no",
   "Outlook not so good",
   "Signs point to yes",
+  "Ask again later",
+  "Very doubtful",
 ];
 
 submit.addEventListener("click", function () {
